@@ -1,0 +1,30 @@
+name: woo_comerce_v1
+description: "A WooCommerce Flutter application."
+publish_to: 'none' # Prevent accidental publishing to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+ # Update to the latest version if possible
+  provider: ^6.1.3 # For state management
+  shared_preferences: ^2.1.1 # For storing user data locally
+  flutter_dotenv: ^5.0.2 # For managing environment variables
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0 # Updated linting rules
+
+flutter:
+  uses-material-design: true
+
+  # Add assets for images or other resources
+  assets:
+    - assets/images/
