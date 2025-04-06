@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
 const String baseUrl = 'https://ecobloomsbh.com/';
-const String consumerKey = 'ck_068cfada7a9de6e3b5ded88215ce9018bb988738';
-const String consumerSecret = 'cs_0117375f38ac68014bb7bf996ec3d49222e386c0';
+const String consumerKey = '';
+const String consumerSecret = '';
 
 // Define app colors
 const Color white = Colors.white;
